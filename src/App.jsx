@@ -4,8 +4,8 @@ import Home from './Components/Home/Home'
 import Search from './Components/Search/Search'
 import Support from './Components/Support/Support'
 import Info from './Components/Info/Info'
-{/*import Lounge from './Components/Lounge/Lounge'
-import Subscribe from './Components/Subscribers/Subscriber'
+import Lounge from './Components/Lounge/Lounge'
+{/*import Subscribe from './Components/Subscribers/Subscriber'
 import Travelers from './Components/Travelers/Travelers'
 import Footer from './Components/Footer/Footer'*/}
 
@@ -17,8 +17,8 @@ const App = () => {
       <Search />
       <Support />
       <Info />
-      {/** <Lounge />
-      <Travelers />
+      <Lounge />
+      {/** <Travelers />
       <Subscribe />
       <Footer />
       */}

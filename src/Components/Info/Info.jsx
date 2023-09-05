@@ -16,7 +16,7 @@ const Info = () => {
                 <div className="cardsDiv grid">
 
                     <div className="singleCard grid">
-                        <div className="iconDiv flex">
+                        <div className="iconDiv flex colorOne">
                             <RxCalendar className='icon' />
                         </div>
                         <span className="cardTitle">Book & Relax</span>
@@ -24,7 +24,7 @@ const Info = () => {
                     </div>
 
                     <div className="singleCard grid">
-                        <div className="iconDiv flex colorOne">
+                        <div className="iconDiv flex ">
                             <BsShieldCheck className='icon' />
                         </div>
                         <span className="cardTitle">Smart Checklist</span>
