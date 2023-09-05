@@ -8,7 +8,7 @@ import { CgMenuGridO } from 'react-icons/cg'
 
 // Imported Images
 
-import logo from '../../assets/viajar.png'
+import logo from '../../assets/img/logo.png'
 
 const Navbar = () => {
     // Let us remove the NavBar in the small width screens ============================>
