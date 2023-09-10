@@ -5,8 +5,8 @@ import Search from './Components/Search/Search'
 import Support from './Components/Support/Support'
 import Info from './Components/Info/Info'
 import Lounge from './Components/Lounge/Lounge'
-{/*import Subscribe from './Components/Subscribers/Subscriber'
 import Travelers from './Components/Travelers/Travelers'
+{/*import Subscribe from './Components/Subscribers/Subscriber'
 import Footer from './Components/Footer/Footer'*/}
 
 const App = () => {
@@ -18,8 +18,8 @@ const App = () => {
       <Support />
       <Info />
       <Lounge />
-      {/** <Travelers />
-      <Subscribe />
+      <Travelers />
+      {/**<Subscribe />
       <Footer />
       */}
     </div>
