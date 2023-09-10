@@ -10,14 +10,14 @@
 }
 
 :root {
-    --PrimaryColor: hsl(225, 50%, 48%);
+    --PrimaryColor: hsl(194, 86%, 45%);
     --SecondaryColor: hsl(180, 17%, 95%);
     --colorOne: hsl(15, 74%, 70%);
     --colorTwo: hsl(28, 91%, 71%);
-    --HoverColor: hsl(225, 56%, 59%);
+    --HoverColor: hsl(225, 43%, 51%);
     --whiteColor: hsl(0, 15%, 91%);
     --blackColor: hsl(0, 0%, 5%);
-    --borderColor: hsl(0, 36%, 76%);
+    --borderColor: hsl(0, 0%, 59%);
     --whiteColorDeam: hsl(0, 24%, 50%);
     --greyBg: hsl(0, 1%, 65%);
     --greyText: rgb(145, 145, 145);
@@ -514,7 +514,7 @@ h2 {
     }
 }
 
-// Traveles section stiling ===========================================================>
+// Travelers section stiling ===========================================================>
 
 .travelers {
     .sectionContainer {
@@ -621,6 +621,84 @@ h2 {
                     .travelerImage {
                         bottom: 110px;
                         transition: 1s ease-in-out;
+                    }
+                }
+            }
+        }
+    }
+}
+
+// Subscribe section stiling ===========================================================>
+
+.subscribe {
+    background: var(--SecondaryColor);
+
+    .sectionContainer {
+        text-align: center;
+
+        .inputDiv {
+            margin-top: 1rem;
+            flex-direction: column;
+            background: var(--whiteColor);
+            border-radius: 1rem;
+
+            input {
+                border: none;
+                outline: none;
+                background: transparent;
+                padding: 1rem .5rem;
+
+                &:placeholder {
+                    font-size: 13px;
+                    opacity: .5;
+                }
+            }
+
+            .btn {
+                width: 100%;
+            }
+        }
+    }
+}
+
+// Footer section stiling ===========================================================>
+
+.footer {
+    background: var(--SecondaryColor);
+
+    .sectionContainer {
+        gap: 2.5rem;
+
+        .gridOne {
+            gap: 1rem;
+            justify-content: center;
+            margin: auto;
+
+            .logoDiv {
+                .Logo {
+                    width: 20%;
+                }
+            }
+
+            .socialIcon {
+                margin-top: 1rem;
+                gap: 1rem;
+
+                .icon {
+                    height: 50px;
+                    width: 30px;
+                    border-radius: 10rem;
+                    border: 1px solid var(--borderColor);
+                    box-shadow: var(--boxShadow);
+                    padding: .4rem;
+                    color: var(--greyText);
+
+                    &:hover {
+                        background: var(--PrimaryColor);
+                        transform: translateY(-7px);
+                        transition: var(--transition);
+                        border: 1px solid var(--PrimaryColor);
+                        color: var(--whiteColor);
                     }
                 }
             }
